@@ -1,0 +1,11 @@
+/* body{
+    background-color: red;
+} */
+.big-title{
+    font-size: 10rem;
+    font-family: cursive;
+    color: yellow;
+}
+.margin-50{
+    margin: 50px;
+}

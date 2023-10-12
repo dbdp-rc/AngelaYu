@@ -1,0 +1,43 @@
+<!-- 
+                <p> Hello</p>
+                <p class ="sec_P"> world</p>       
+                <span>hello</span>
+                <span>World</span>
+
+                p{
+                    background-color : red;
+                    display:inline-block;
+                    width:100px;
+                }
+                span{
+                    display :inline;
+                    background-color : blue;
+                    width : 100px ;
+                }
+                .sec_P{
+                /*     display :none; */
+                    visibility:hidden;
+                /*   both hides the element */
+                }
+1.height of block is determined by the content inside
+2.order of the element comes from the HTML
+3.children sit on top of parents...childern is nearer to viewer screen compared to the parent element...z-axis
+3.position property is used to change this property.....static,relative,absolute,fixed
+                
+                -- all html are static by default
+                
+                -- relative : it would position the element with respect to the position if the element was static by desired amount
+                    cordinate properties : top bottom left right
+                        top : 20 px , element moves down by 20px ie. margin of margin-top is given for 20px
+                        right:20 px , element moves left by 20px
+                        left:20 px , element moves right by 20px
+                        bottom:20 px , element moves up by 20px
+                    it doesn't effect the other element's position on the screen
+                
+                -- absolute : we position the element with relative to its parent ie. an image inside a div is given position absolute and right : 30px , it will shift the image to the right side and 30px gap from the border of the div.
+                            it also effects the position of the other elements .
+
+                --fixed: it  fixes the element position,if scrolling done it stays there
+                
+-->
+
